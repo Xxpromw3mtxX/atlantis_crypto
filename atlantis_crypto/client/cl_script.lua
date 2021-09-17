@@ -15,7 +15,7 @@ Citizen.CreateThread(function()
 		local playerPed = PlayerPedId()
 		local coords = GetEntityCoords(playerPed)
 
-        if GetDistanceBetweenCoords(coords, Config.CryptoStation.Farming.Points, true) < 1 then
+        if GetDistanceBetweenCoords(coords, Config.CryptoStation.Farming, true) < 1 then
             if not isFarming then
 				ESX.ShowHelpNotification(_U('farmprompt'))
 			end
@@ -48,7 +48,7 @@ Citizen.CreateThread(function()
 		local playerPed = PlayerPedId()
 		local coords = GetEntityCoords(playerPed)
 
-		if GetDistanceBetweenCoords(coords, Config.CryptoStation.Processing.Points, true) < 1 then
+		if GetDistanceBetweenCoords(coords, Config.CryptoStation.Processing, true) < 1 then
 			if not isProcessing then
 				ESX.ShowHelpNotification(_U('processprompt'))
 			end
