@@ -15,6 +15,7 @@ Crypto farming and mining system built on top of ESX framework by lilfraae
 ## Requirements
 * Required:
     * [es_extended](https://github.com/esx-framework/esx-legacy)
+    * [progressBars](https://github.com/Xxpromw3mtxX/progressBars)
     * [brain](https://i.pinimg.com/originals/93/1c/f7/931cf76803272477f424adfbdbfb3bb5.jpg)
 * Optional:
     * None
